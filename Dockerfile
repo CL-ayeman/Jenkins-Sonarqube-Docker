@@ -1,1 +1,2 @@
-FROM alpine:3.13.5
+FROM nginx
+COPY . /usr/share/nginx/html/
